@@ -1,0 +1,51 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the header of the site/application.
+// -----------------------------------------------------------------------------
+
+.header__phone{
+    text-align: center;
+}
+.header__logo{
+    display: inline-block;
+    font-size: 2.5em;
+    color: $secundary-color;
+    display: flex;
+    align-items: center;
+    margin-left: 1em;
+}
+
+.header__logo-icon{
+    width: 7em;
+    height: 7em;
+}
+
+.header__description{
+    color: $secundary-color;
+    line-height: 1.4em;
+    margin-bottom: 2.1em;
+    font-size: 1.5em;
+    font-family: 'Proxima Nova Lt';
+    font-weight: 300;
+}
+
+.header__logo-part{
+    display: flex;
+    margin-bottom: 5em;
+    margin-top: 6em;
+}
+
+.header__buttons{
+    margin-bottom: 2.27em;
+    font-size: 1.1em;
+}
+
+.platform-icon{
+    fill: $primary-color;
+    margin-right: 2.25em;
+}
+
+.header__logo,
+.header__buttons{
+    font-family: 'Proxima Nova Rg';
+    font-weight: normal;
+}

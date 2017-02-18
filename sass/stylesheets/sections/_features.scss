@@ -1,0 +1,60 @@
+.features{
+    background-color: $grey-bg;
+}
+
+.features__heading{
+    font-family: 'Proxima Nova Lt';
+    font-weight: 600;
+    font-size: 1.8em;
+    color: rgb(114,114,114);
+    margin-bottom: 2.1em;
+    text-align: left;
+}
+
+.features__img{
+    width: 17em;
+    height: 30em;
+    margin-top: 1.5em;
+}
+
+.features__images{
+    text-align: center;
+}
+
+
+
+.features__list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+    li{
+        margin-bottom: 3.5em;
+        
+        .features__icon{
+            height: 45px;
+            width: 45px;
+            float: left;
+            fill: $secundary-color;
+            margin-right: 1.5em;
+        }
+        
+        .features__description{
+            float: left;
+        }
+        
+        .features__paragraph{
+            margin: 0;
+            font-family: 'Proxima Nova Lt';
+            font-weight: 300;
+            font-size: 0.9em;
+            color: $secundary-color;
+        }
+        
+        .heading--small{
+            margin: 0;
+            color: $primary-color;
+            font-size: 1em;
+        }
+    }
+}

@@ -1,0 +1,61 @@
+.newsletter{
+    background-color: $grey-bg;
+    text-align: center;
+}
+
+.newsletter__icon{
+    height: 2em;
+    width: 2em;
+    margin-bottom: 1.5em;
+    fill: $primary-color;
+}
+
+.newsletter__heading{
+    margin: 0;
+    padding: 0;
+    color: rgb(140,148,148);
+    font-family: 'Proxima Nova Rg';
+    font-weight: normal;
+    font-size: 1.5em;
+}
+
+.newsletter__paragraph{
+    margin: 0;
+    font-family: 'Proxima Nova Lt';
+    font-weight: 300;
+    font-size: 1.1em;
+    color: rgb(104,104,104);
+    margin-bottom: 2.7em;
+}
+
+.newsletter__form{
+    padding-bottom: 4.5em;
+}
+
+.form__email{
+    height: 3em;
+    width: 30em;
+    border-radius: 1.5em 0 0 1.5em;
+    outline: none;
+    padding-left: 1em;
+}
+
+.form__submit{
+    font-family: 'Proxima Nova Lt';
+    font-weight: 600;
+    text-transform: uppercase;
+    
+    height: 3em;
+    width: 8em;
+    margin-left: -0.3em;
+    background-color: $primary-color;
+    color: white;
+    
+    cursor: pointer;
+    border-radius: 0 1.5em 1.5em 0;
+    
+    &:hover{
+        background-color: $primary-color-hover;
+    }
+    
+}

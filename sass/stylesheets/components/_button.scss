@@ -1,0 +1,34 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the button component.
+// -----------------------------------------------------------------------------
+
+.btn:link,
+.btn:visited{
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;  
+    font-size: 1.1em;
+}
+
+.btn--full{
+    border: 2px solid $primary-color;
+    color: $primary-color;
+    margin-right: 1.25em;
+    
+    &:hover{
+        background-color: $primary-color;
+        color: white;
+    }
+}
+
+.btn--ghost{
+    border: 2px solid $secundary-color;
+    background-color: $secundary-color;
+    color: white;
+    
+    &:hover{
+        background-color: darkgray;
+    }
+}

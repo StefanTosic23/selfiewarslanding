@@ -1,0 +1,50 @@
+
+.landing{
+    background-color: $primary-color;
+}
+
+.landing__heading{
+    color: white;
+}
+
+.properties__icons{
+    width: 4em;
+    height: 4em;
+    fill: white;
+    margin-bottom: 3.25em;
+}
+
+.landing__text{
+    color: white;
+    margin-bottom: 5em;
+    margin-top: 1.25em;
+}
+
+.properties__headings{
+    color: white;
+    font-weight: 200;
+    margin-bottom: 1.25em;
+}
+
+.properties__text{
+    color: white;
+    max-width: 13em;
+}
+
+.properties__align{
+    display: flex;
+    justify-content: center;
+}
+
+.landing__heading,
+.properties__headings{
+    font-family: 'Proxima Nova Lt';
+    font-weight: 300;
+}
+
+.landing__text,
+.properties__text{
+    font-family: 'Proxima Nova Lt';
+    font-weight: 300;
+    font-style: normal;
+}

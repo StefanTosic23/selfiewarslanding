@@ -1,0 +1,87 @@
+// -----------------------------------------------------------------------------
+// This file contains very basic styles.
+// -----------------------------------------------------------------------------
+
+
+html {
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    font-size: 20px;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+} 
+
+   // --------------------- HEADINGS --------------------- //
+
+p{ 
+    text-align: center;
+    margin: 0;
+}
+
+a{ text-decoration: none; }
+
+h2,
+h3{
+    margin: 0;
+}
+
+h3{ font-size: 1.4em; }
+
+h2{
+    font-weight: 200;
+    text-align: center;
+    font-size: 1.7em;
+}
+
+    // --------------------- GRID  --------------------- //
+
+.row {
+    zoom: 1;
+    
+    &:before {
+        content:"";
+        display: table;
+    }
+    &:after{
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+.col:first-child { margin-left: 0; }
+
+.span-1-of-2 { 
+    width: 49.2%; 
+}
+
+.span-1-of-3 { 
+    width: 32.26%; 
+    text-align: center;
+}
+
+@media only screen and (max-width: 787px) {
+    
+	.span-1-of-2 {
+		width: 100%; 
+	}
+    
+    .span-1-of-3 {
+		width: 100%;
+	}
+}
+
+
+.wrap{
+    padding: 3em 0;
+    max-width: $max-width;
+    margin-left: auto;
+    margin-right: auto;
+}

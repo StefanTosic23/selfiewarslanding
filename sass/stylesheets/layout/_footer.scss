@@ -1,0 +1,22 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the footer of the site/application.
+// -----------------------------------------------------------------------------
+
+footer{
+    text-align: center;
+    
+    .footer__icon{
+        height: 2em;
+        width: 2em;
+        margin-right: 2.5em;
+        fill: $secundary-color;
+        
+        &:hover{
+            fill: black;
+        }
+    }
+    
+    .footer__icons{
+        margin-bottom: 3em;
+    }
+}

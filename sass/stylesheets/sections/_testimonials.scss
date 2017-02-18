@@ -1,0 +1,64 @@
+
+.testimonials__icon{
+    text-align: center;
+    margin-bottom: 2.25em;
+    
+    .testimonials__quote-icon{
+        fill: $primary-color;
+        height: 2em;
+        width: 2em;
+    }
+}
+
+.testimonials__align{
+    display: flex;
+    justify-content: center;
+}
+
+.testimonials__quote{
+    font-family: 'Proxima Nova Lt';
+    font-weight: 300;
+    font-size: 1.2em;
+    color: rgb(140,148,148);
+    text-align: center;
+    line-height: 1.3em;
+    margin-bottom: 5em;
+    max-width: 27em;
+}
+
+.testimonials__img{
+    height: 4em;
+    width: 4em;
+    padding: 0.2em;
+    border: 2px solid $primary-color;
+    border-radius: 200%;
+    float: left;
+    margin-right: 0.5em;
+}
+
+.testimonials__description{
+    float: left;
+    padding-top: 1em;
+}
+
+.description__name,
+.description__profession{
+    font-family: 'Proxima Nova Rg';
+    font-weight: normal;
+}
+
+.description__profession{
+    text-align: left;
+    font-size: 0.9em;
+    color: $secundary-color;
+}
+
+.description__name{
+    font-size: 1.2em;
+    color: $primary-color;
+}
+
+.testimonials__users{
+    padding-left: 4em;
+    margin-bottom: 5em;
+}
