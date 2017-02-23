@@ -3,8 +3,7 @@
 }
 
 .features__heading{
-    font-family: 'Proxima Nova Lt';
-    font-weight: 600;
+    font-family: $font-regular;
     font-size: 1.8em;
     color: rgb(114,114,114);
     margin-bottom: 2.1em;
@@ -17,9 +16,6 @@
     margin-top: 1.5em;
 }
 
-.features__images{
-    text-align: center;
-}
 
 
 
@@ -45,10 +41,10 @@
         
         .features__paragraph{
             margin: 0;
-            font-family: 'Proxima Nova Lt';
+            font-family: $font-light;
             font-weight: 300;
             font-size: 0.9em;
-            color: $secundary-color;
+            color: rgb(104,104,104);
         }
         
         .heading--small{
@@ -57,4 +53,21 @@
             font-size: 1em;
         }
     }
+}
+
+.features__left-col{
+    text-align: center;
+}
+
+.features__slider{
+
+}
+
+@media only screen and (max-width: 767px) {
+    
+    .features__list li{
+        display: flex;
+        justify-content: center;
+    }
+    
 }

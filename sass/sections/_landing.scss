@@ -38,13 +38,18 @@
 
 .landing__heading,
 .properties__headings{
-    font-family: 'Proxima Nova Lt';
-    font-weight: 300;
+    font-family: $font-regular;
 }
 
 .landing__text,
 .properties__text{
-    font-family: 'Proxima Nova Lt';
+    font-family: $font-light;
     font-weight: 300;
-    font-style: normal;
+}
+
+@media only screen and (max-width: 767px) {
+    
+    .properties__text{
+        margin-bottom: 3em;
+    }
 }

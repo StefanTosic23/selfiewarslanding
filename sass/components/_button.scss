@@ -13,9 +13,20 @@
 }
 
 .btn--full{
+    border: 2px solid $secundary-color;
+    background-color: $secundary-color;
+    color: white;
+    
+    margin-left: 1.25em;
+    
+    &:hover{
+        background-color: darkgray;
+    }
+}
+
+.btn--ghost{
     border: 2px solid $primary-color;
     color: $primary-color;
-    margin-right: 1.25em;
     
     &:hover{
         background-color: $primary-color;
@@ -23,12 +34,8 @@
     }
 }
 
-.btn--ghost{
-    border: 2px solid $secundary-color;
-    background-color: $secundary-color;
-    color: white;
+@media only screen and (max-width: 480px) {
     
-    &:hover{
-        background-color: darkgray;
-    }
+    .btn--full{ margin-left: 0; }
+    	
 }

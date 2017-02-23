@@ -11,17 +11,17 @@
 }
 
 .newsletter__heading{
-    margin: 0;
+    margin-bottom: 0.25em;
     padding: 0;
     color: rgb(140,148,148);
-    font-family: 'Proxima Nova Rg';
+    font-family: $font-regular;
     font-weight: normal;
     font-size: 1.5em;
 }
 
 .newsletter__paragraph{
     margin: 0;
-    font-family: 'Proxima Nova Lt';
+    font-family: $font-light;
     font-weight: 300;
     font-size: 1.1em;
     color: rgb(104,104,104);
@@ -36,13 +36,17 @@
     height: 3em;
     width: 30em;
     border-radius: 1.5em 0 0 1.5em;
+    border: 1px solid #d9d6d6;
     outline: none;
     padding-left: 1em;
 }
 
+.newsletter__submit{
+    display: inline-block;
+}
+
 .form__submit{
-    font-family: 'Proxima Nova Lt';
-    font-weight: 600;
+    font-family: $font-regular;
     text-transform: uppercase;
     
     height: 3em;
@@ -53,9 +57,34 @@
     
     cursor: pointer;
     border-radius: 0 1.5em 1.5em 0;
+    border: 1px solid $primary-color;
     
     &:hover{
         background-color: $primary-color-hover;
     }
     
+}
+
+@media only screen and (max-width: 1023px) {
+    
+    .form__submit{
+        display: block;
+        border-radius: 0.5em;
+        height: 2em;
+        width: 6em;
+        
+    }
+    
+    .newsletter__submit{
+        display: flex;
+        justify-content: center;
+       
+    }
+    
+    .form__email{
+        border-radius: 1.5em;
+        width: 70%;
+        height: 2em; 
+        margin-bottom: 1em;
+    }
 }

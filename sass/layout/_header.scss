@@ -24,7 +24,7 @@
     line-height: 1.4em;
     margin-bottom: 2.1em;
     font-size: 1.5em;
-    font-family: 'Proxima Nova Lt';
+    font-family: $font-light;
     font-weight: 300;
 }
 
@@ -46,6 +46,29 @@
 
 .header__logo,
 .header__buttons{
-    font-family: 'Proxima Nova Rg';
+    font-family: $font-regular;
     font-weight: normal;
+}
+
+@media only screen and (max-width: 767px) {
+    
+    .header__basic{
+        text-align: center;
+    }
+    
+    .header__logo-part{
+       display: flex;
+        justify-content: center;
+    }
+    
+    	
+}
+
+@media only screen and (max-width: 480px) {
+    
+    .header__button{
+        display: block;
+        margin-bottom: 1em;
+    }
+    	
 }

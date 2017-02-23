@@ -14,9 +14,19 @@ footer{
         &:hover{
             fill: black;
         }
+        
     }
+    
+    .icon--last{ margin-right: 0;}
     
     .footer__icons{
         margin-bottom: 3em;
+        
+    }
+    
+    .footer__copyright{
+        color: $secundary-color;
+        font-size: 0.85em;
+        text-align: center;
     }
 }

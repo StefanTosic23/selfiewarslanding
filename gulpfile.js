@@ -16,7 +16,7 @@ var paths = {
 
 	scss: {
 		src: 'sass/**/*',
-		main: 'sass/stylesheets/main.scss'
+		main: 'sass/main.scss'
 	}
 
 };

@@ -16,7 +16,7 @@
 }
 
 .testimonials__quote{
-    font-family: 'Proxima Nova Lt';
+    font-family: $font-light;
     font-weight: 300;
     font-size: 1.2em;
     color: rgb(140,148,148);
@@ -43,7 +43,7 @@
 
 .description__name,
 .description__profession{
-    font-family: 'Proxima Nova Rg';
+    font-family: $font-regular;
     font-weight: normal;
 }
 
@@ -59,6 +59,16 @@
 }
 
 .testimonials__users{
-    padding-left: 4em;
+    text-align: center;
     margin-bottom: 5em;
+}
+
+@media only screen and (max-width: 767px) {
+    
+    .testimonials__users{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
 }
