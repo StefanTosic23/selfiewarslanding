@@ -57,10 +57,10 @@
 
 .features__left-col{
     text-align: center;
-}
-
-.features__slider{
-
+    
+    .slick-dots{
+        bottom: -2em;
+    }
 }
 
 @media only screen and (max-width: 767px) {
@@ -69,5 +69,7 @@
         display: flex;
         justify-content: center;
     }
+    
+    .features__heading{ text-align: center; }
     
 }
