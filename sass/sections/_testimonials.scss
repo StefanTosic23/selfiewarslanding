@@ -65,4 +65,11 @@
 
 @media only screen and (max-width: 767px) {
     
+    .testimonials__user,
+    .testimonials__img,
+    .testimonials__description{
+        float: none;
+    }
+    .description__profession{ text-align: center;}
+    .testimonials__user{ margin-bottom: 2em;}
 }
