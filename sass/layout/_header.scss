@@ -61,7 +61,7 @@
     }
     
     .header__logo-part{
-       display: flex;
+        display: flex;
         justify-content: center;
     }
     
@@ -74,5 +74,11 @@
         display: block;
         margin-bottom: 1em;
     }
+    
+   .marvel-device.iphone5c{
+    margin-top: 20px;
+    height: 420px;
+    width: 237px;
+}
     	
 }

@@ -72,4 +72,11 @@
     }
     .description__profession{ text-align: center;}
     .testimonials__user{ margin-bottom: 2em;}
+    
+    .testimonials__users{
+        margin-bottom: 0;
+        :last-of-type{
+            margin-bottom: 0;
+        }
+    }
 }

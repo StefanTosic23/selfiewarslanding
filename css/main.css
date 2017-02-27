@@ -410,6 +410,9 @@ html {
 *, *::before, *::after {
   box-sizing: inherit; }
 
+input {
+  line-height: 0; }
+
 p {
   text-align: center;
   margin: 0; }
@@ -454,23 +457,25 @@ h2 {
   width: 32.26%;
   text-align: center; }
 
+.wrap {
+  padding: 3em 0;
+  max-width: 1180px;
+  margin-left: auto;
+  margin-right: auto; }
+
 @media only screen and (max-width: 767px) {
   .span-1-of-2 {
     width: 100%; }
   .span-1-of-3 {
     width: 100%; }
   .col:first-child {
-    margin-left: 1%; } }
+    margin-left: 1%; }
+  .wrap {
+    padding: 1.5em 0; } }
 
 @media only screen and (max-width: 480px) {
   body {
     font-size: 18px; } }
-
-.wrap {
-  padding: 3em 0;
-  max-width: 1180px;
-  margin-left: auto;
-  margin-right: auto; }
 
 @font-face {
   font-family: 'Proxima Nova Rg';
@@ -582,7 +587,11 @@ h2 {
 @media only screen and (max-width: 480px) {
   .header__button {
     display: block;
-    margin-bottom: 1em; } }
+    margin-bottom: 1em; }
+  .marvel-device.iphone5c {
+    margin-top: 20px;
+    height: 420px;
+    width: 237px; } }
 
 footer {
   text-align: center; }
@@ -625,6 +634,18 @@ footer {
   .btn--ghost:hover {
     background-color: #85b557;
     color: white; }
+
+@media only screen and (max-width: 1023px) {
+  .header__button {
+    display: block; }
+  .header__buttons {
+    text-align: center; }
+  .btn--full {
+    margin-left: 0; }
+  .btn--ghost {
+    margin-bottom: 1em; }
+  .header__platform-icons {
+    text-align: center; } }
 
 @media only screen and (max-width: 480px) {
   .btn--full {
@@ -798,7 +819,11 @@ footer {
   .description__profession {
     text-align: center; }
   .testimonials__user {
-    margin-bottom: 2em; } }
+    margin-bottom: 2em; }
+  .testimonials__users {
+    margin-bottom: 0; }
+    .testimonials__users :last-of-type {
+      margin-bottom: 0; } }
 
 .newsletter {
   background-color: #f8f8f9;

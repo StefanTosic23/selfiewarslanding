@@ -34,6 +34,18 @@
     }
 }
 
+@media only screen and (max-width: 1023px) {
+    
+    .header__button{
+        display: block;
+    }
+    .header__buttons{ text-align: center;}
+    .btn--full{ margin-left: 0; }
+    .btn--ghost{ margin-bottom: 1em; }
+    .header__platform-icons{ text-align: center;}
+    
+}
+
 @media only screen and (max-width: 480px) {
     
     .btn--full{ margin-left: 0; }

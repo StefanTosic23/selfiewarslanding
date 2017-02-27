@@ -13,6 +13,10 @@ html {
   box-sizing: inherit;
 } 
 
+input{
+    line-height: 0;
+}
+
    // --------------------- HEADINGS --------------------- //
 
 p{ 
@@ -67,6 +71,13 @@ h2{
     text-align: center;
 }
 
+.wrap{
+    padding: 3em 0;
+    max-width: $max-width;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 @media only screen and (max-width: 767px) {
     
 	.span-1-of-2 {
@@ -78,6 +89,10 @@ h2{
 	}
     
     .col:first-child{ margin-left: 1%;}
+    
+    .wrap{
+        padding: 1.5em 0;
+    }
 }
 
 @media only screen and (max-width: 480px) {
@@ -87,9 +102,4 @@ h2{
 }
 
 
-.wrap{
-    padding: 3em 0;
-    max-width: $max-width;
-    margin-left: auto;
-    margin-right: auto;
-}
+
