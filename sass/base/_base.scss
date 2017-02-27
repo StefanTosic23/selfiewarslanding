@@ -21,7 +21,6 @@ input{
 
 p{ 
     text-align: center;
-    padding: 0 0.5em;
     margin: 0;
 }
 
@@ -79,24 +78,39 @@ h2{
     margin-right: auto;
 }
 
+@media only screen and (max-width: 1023px) {
+    
+    .span-1-of-3 {
+		width: 100%;
+	}
+    .testimonials__users{
+        .col:first-child{ margin-left: 1.6%;}
+    }
+}
+
 @media only screen and (max-width: 767px) {
     
 	.span-1-of-2 {
 		width: 100%; 
 	}
     
-    .span-1-of-3 {
-		width: 100%;
-	}
-    
-    .col:first-child{ margin-left: 1%;}
-    
     .wrap{
         padding: 1.5em 0;
+    }
+    
+    .landing,
+    .features{
+        p{
+            padding: 0 0.5em;
+        }
+    }
+    .testimonials__quote{
+        padding: 0 0.5em;
     }
 }
 
 @media only screen and (max-width: 480px) {
+    
     body{
         font-size: 18px;
     }

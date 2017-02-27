@@ -415,7 +415,6 @@ input {
 
 p {
   text-align: center;
-  padding: 0 0.5em;
   margin: 0; }
 
 a {
@@ -464,15 +463,22 @@ h2 {
   margin-left: auto;
   margin-right: auto; }
 
+@media only screen and (max-width: 1023px) {
+  .span-1-of-3 {
+    width: 100%; }
+  .testimonials__users .col:first-child {
+    margin-left: 1.6%; } }
+
 @media only screen and (max-width: 767px) {
   .span-1-of-2 {
     width: 100%; }
-  .span-1-of-3 {
-    width: 100%; }
-  .col:first-child {
-    margin-left: 1%; }
   .wrap {
-    padding: 1.5em 0; } }
+    padding: 1.5em 0; }
+  .landing p,
+  .features p {
+    padding: 0 0.5em; }
+  .testimonials__quote {
+    padding: 0 0.5em; } }
 
 @media only screen and (max-width: 480px) {
   body {
@@ -812,7 +818,7 @@ footer {
   text-align: center;
   margin-bottom: 5em; }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1023px) {
   .testimonials__user,
   .testimonials__img,
   .testimonials__description {
