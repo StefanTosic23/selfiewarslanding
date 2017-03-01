@@ -474,9 +474,6 @@ h2 {
     width: 100%; }
   .wrap {
     padding: 1.5em 0; }
-  .landing p,
-  .features p {
-    padding: 0 0.5em; }
   .testimonials__quote {
     padding: 0 0.5em; } }
 
@@ -589,7 +586,9 @@ h2 {
     display: flex;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
-            justify-content: center; } }
+            justify-content: center; }
+  header p {
+    padding: 0 0.5em; } }
 
 @media only screen and (max-width: 480px) {
   .header__button {
@@ -660,6 +659,8 @@ footer {
 
 .landing {
   background-color: #85b557; }
+  .landing p {
+    padding: 0 0.5em; }
 
 .landing__heading {
   color: white; }
@@ -759,7 +760,9 @@ footer {
         -ms-flex-pack: center;
             justify-content: center; }
   .features__heading {
-    text-align: center; } }
+    text-align: center; }
+  .features p {
+    padding: 0 0.5em; } }
 
 .testimonials__icon {
   text-align: center;
@@ -816,7 +819,8 @@ footer {
 
 .testimonials__users {
   text-align: center;
-  margin-bottom: 5em; }
+  margin-bottom: 5em;
+  padding-left: 1.5em; }
 
 @media only screen and (max-width: 1023px) {
   .testimonials__user,
