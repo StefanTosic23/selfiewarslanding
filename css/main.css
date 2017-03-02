@@ -561,6 +561,9 @@ h2 {
   margin-bottom: 5em;
   margin-top: 6em; }
 
+.description__download-span {
+  color: #555454; }
+
 .header__buttons {
   margin-bottom: 2.27em;
   font-size: 1.1em; }
