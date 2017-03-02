@@ -11,6 +11,8 @@ footer{
         margin-right: 2.5em;
         fill: $secundary-color;
         
+        &:first-of-type{ margin-right: 0; }
+        
         &:hover{
             fill: black;
         }

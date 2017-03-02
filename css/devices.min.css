@@ -4,3 +4,8 @@
     height: 420px;
     width: 237px;
 }
+.marvel-device.iphone5c.green .sleep,
+.marvel-device.iphone5c.green .volume,
+.marvel-device.iphone5c.green{
+    background: rgb(255, 165, 50);
+}
