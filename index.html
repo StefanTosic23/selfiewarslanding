@@ -9,9 +9,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="img/favicon.ico" type="image/x-icon">
         
         <link rel="stylesheet" type="text/css" href="js/vendor/slick/slick.css"/>
         <link rel="stylesheet" type="text/css" href="js/vendor/slick/slick-theme.css"/>
+        
 
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/devices.min.css">
@@ -248,14 +251,9 @@
                 <h2 class="newsletter__heading">Get notified of any updates!</h2>
                 <p class="newsletter__paragraph">Subscribe to our newsletter to be notified about new version release</p>
                 
-                <form class="newsletter__form">
-                    
-                    <input class="form__email" type="email" name="Your email address" />
-
-                    
-                   <div class="newsletter__submit"> <input class="form__submit" type="submit"/> </div> 
-                    
-                
+                <form action="https://formspree.io/info@wwweb.design" method="POST">
+                    <input class="form__email" type="email" name="email" placeholder="Your email">
+                    <div class="newsletter__submit"> <input class="form__submit" type="submit" value="Send" name="submit"> </div>
                 </form>
                 
             </div>

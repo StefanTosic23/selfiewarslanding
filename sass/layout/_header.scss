@@ -5,6 +5,9 @@
 .header__phone{
     text-align: center;
 }
+header{
+    .slick-slide{ outline: none; }
+}
 .header__logo{
     display: inline-block;
     font-size: 2.5em;
