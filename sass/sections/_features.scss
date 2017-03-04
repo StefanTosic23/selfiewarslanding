@@ -68,12 +68,11 @@
 
 @media only screen and (max-width: 767px) {
     
-    .features__list li{
-        display: flex;
-        justify-content: center;
-    }
     
-    .features__heading{ text-align: center; }
+    .features__heading{
+        text-align: center; 
+    }
+    .heading--small{ text-align: left; }
     .features{
         p{ padding: 0 0.5em; }
     }
