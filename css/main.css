@@ -472,8 +472,6 @@ h2 {
 @media only screen and (max-width: 767px) {
   .span-1-of-2 {
     width: 100%; }
-  .wrap {
-    padding: 1.5em 0; }
   .testimonials__quote {
     padding: 0 0.5em; } }
 
@@ -742,13 +740,16 @@ footer {
     .features__list li .features__icon {
       height: 45px;
       width: 45px;
+      display: inline-block;
       float: left;
       fill: #b9b9b9;
       margin-right: 1.5em; }
     .features__list li .features__description {
-      float: left; }
+      display: block; }
     .features__list li .features__paragraph {
       margin: 0;
+      display: block;
+      text-align: left;
       font-family: "Proxima Nova Lt", Arial, Helvetica, sans-serif;
       font-weight: 300;
       font-size: 0.9em;

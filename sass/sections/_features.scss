@@ -19,9 +19,6 @@
     margin-top: 1.5em;
 }
 
-
-
-
 .features__list{
     list-style: none;
     padding: 0;
@@ -33,17 +30,20 @@
         .features__icon{
             height: 45px;
             width: 45px;
+            display: inline-block;
             float: left;
             fill: $secundary-color;
             margin-right: 1.5em;
         }
         
         .features__description{
-            float: left;
+            display: block;
         }
         
         .features__paragraph{
             margin: 0;
+            display: block;
+            text-align: left;
             font-family: $font-light;
             font-weight: 300;
             font-size: 0.9em;
