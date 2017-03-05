@@ -477,7 +477,7 @@ h2 {
 
 @media only screen and (max-width: 480px) {
   body {
-    font-size: 18px; } }
+    font-size: 17px; } }
 
 @font-face {
   font-family: 'Proxima Nova Rg';
@@ -550,24 +550,29 @@ header .slick-slide {
 .header__description {
   color: #b9b9b9;
   line-height: 1.4em;
-  margin-bottom: 2.1em;
+  margin-bottom: 2em;
   font-size: 1.5em;
   font-family: "Proxima Nova Lt", Arial, Helvetica, sans-serif;
   font-weight: 300; }
+  .header__description p {
+    text-align: left; }
 
 .header__logo-part {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-bottom: 5em;
+  margin-bottom: 3em;
   margin-top: 6em; }
 
 .description__download-span {
   color: #555454; }
 
 .header__buttons {
-  margin-bottom: 2.27em;
+  margin-bottom: 3em;
   font-size: 1.1em; }
+
+.header__button {
+  width: 9.2em; }
 
 .platform-icon {
   fill: #ffa532;
@@ -593,7 +598,9 @@ header .slick-slide {
         -ms-flex-pack: center;
             justify-content: center; }
   header p {
-    padding: 0 0.5em; } }
+    padding: 0 0.5em; }
+  .header__description p {
+    text-align: center; } }
 
 @media only screen and (max-width: 480px) {
   .header__button {
@@ -602,7 +609,11 @@ header .slick-slide {
   .marvel-device.iphone5c {
     margin-top: 20px;
     height: 420px;
-    width: 237px; } }
+    width: 237px; }
+  .header__logo-icon {
+    margin-left: 1.4em; }
+  .header__logo {
+    margin-left: 0; } }
 
 footer {
   text-align: center; }
@@ -644,7 +655,9 @@ footer {
 .btn--ghost {
   border: 2px solid #ffa532;
   color: #ffa532;
-  text-align: center; }
+  text-align: center;
+  pointer-events: none;
+  cursor: default; }
   .btn--ghost:hover {
     background-color: #ffa532;
     color: white; }
@@ -710,9 +723,13 @@ footer {
   font-family: "Proxima Nova Lt", Arial, Helvetica, sans-serif;
   font-weight: 300; }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1023px) {
   .properties__text {
-    margin-bottom: 3em; } }
+    margin-bottom: 2em; }
+  .properties__icons {
+    margin-bottom: 1.5em; }
+  .landing__text {
+    margin-bottom: 2.5em; } }
 
 .features {
   background-color: #f8f8f9; }
@@ -817,9 +834,10 @@ footer {
   font-weight: normal; }
 
 .description__profession {
-  text-align: left;
   font-size: 0.9em;
   color: #b9b9b9; }
+  .description__profession p {
+    text-align: left; }
 
 .description__name {
   font-size: 1.2em;
@@ -837,10 +855,13 @@ footer {
     float: none; }
   .description__profession {
     text-align: center; }
+    .description__profession p {
+      text-align: center; }
   .testimonials__user {
     margin-bottom: 2em; }
   .testimonials__users {
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    padding: 0; }
     .testimonials__users :last-of-type {
       margin-bottom: 0; } }
 

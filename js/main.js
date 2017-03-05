@@ -12,4 +12,9 @@ $(document).ready(function(){
       autoplay: true
   });
     
+    $('.js--scroll-to-landing').click(function () {
+        
+        $('html, body').animate({scrollTop: $('#landing').offset().top}, 800);
+    });
+    
 });

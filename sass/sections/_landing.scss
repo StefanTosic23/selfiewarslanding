@@ -51,9 +51,15 @@
     font-weight: 300;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1023px) {
     
     .properties__text{
-        margin-bottom: 3em;
+        margin-bottom: 2em;
+    }
+    .properties__icons{
+        margin-bottom: 1.5em;
+    }
+    .landing__text{
+        margin-bottom: 2.5em;
     }
 }
