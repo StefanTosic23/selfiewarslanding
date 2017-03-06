@@ -14,7 +14,11 @@ $(document).ready(function(){
     
     $('.js--scroll-to-landing').click(function () {
         
-        $('html, body').animate({scrollTop: $('#landing').offset().top}, 800);
+        $('html, body').animate({scrollTop: $('.js--landing').offset().top}, 800);
+    });
+    $('.js--scroll-to-subscribe').click(function () {
+        
+        $('html, body').animate({scrollTop: $('.js--subscribe').offset().top}, 1800);
     });
     
 });

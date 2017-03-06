@@ -655,9 +655,7 @@ footer {
 .btn--ghost {
   border: 2px solid #ffa532;
   color: #ffa532;
-  text-align: center;
-  pointer-events: none;
-  cursor: default; }
+  text-align: center; }
   .btn--ghost:hover {
     background-color: #ffa532;
     color: white; }
